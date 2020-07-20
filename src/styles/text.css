@@ -1,0 +1,74 @@
+@import "colors.css";
+
+/* ---------------- TEXT VARIABLES FOR CSS CLASSES - */
+:root {
+    /* FONT WEIGHT */
+    --fwextralight: 200;
+    --fwlight: 300;
+    --fwregular: 400;
+    --fwsemibold: 600;
+    --fwbold: 700;
+    --fwextrabold: 800;
+    --fwblack: 900;
+    /* FONT SIZE */
+    --fsextraforce: 28px;
+    --fsforce: 24px;
+    --fsbigger: 22px;
+    --fsbig: 18px;
+    --fsdef: 16px;
+    --fsregular: 14px;
+    --fssmall: 12px;
+    --fssmaller: 10px;
+}
+
+/* ----------------------------  */
+/* ---------------- TEXT WEIGHT  */
+.fw-black{ font-weight: var(--fwblack); }
+.fw-extrabold{ font-weight: var(--fwextrabold); }
+.fw-bold{ font-weight: var(--fwbold); }
+.fw-semibold{ font-weight: var(--fwsemibold); }
+.fw-regular{ font-weight: var(--fwregular); }
+.fw-light{ font-weight: var(--fwlight); }
+.fw-extralight{ font-weight: var(--fwextralight); }
+
+/* ---------------------------  */
+/* ---------------- TEXT SIZES  */
+.fs-extraforce{ font-size: var(--fsextraforce); }
+.fs-force{ font-size: var(--fsforce); }
+.fs-bigger{ font-size: var(--fsbigger); }
+.fs-big{ font-size: var(--fsbig); }
+.fs-def{ font-size: var(--fsdef); }
+.fs-regular{ font-size: var(--fsregular); }
+.fs-small{ font-size: var(--fssmall); }
+.fs-smaller{ font-size: var(--fssmaller); }
+
+/* ---------------------------  */
+/* ---------------- TEXT COLORS */
+.tc-white { color: var(--white); }
+.tc-white { color: var(--white); }
+.tc-black { color: var(--black); }
+.tc-dark { color: var(--dark); }
+.tc-grey-light { color: var(--grey-light); }
+.tc-grey-medium { color: var(--grey-light); }
+.tc-grey { color: var(--grey); }
+.tc-grey { color: var(--grey); }
+.tc-red { color: var(--red); }
+.tc-error { color: var(--error); }
+.tc-yellow { color: var(--yellow); }
+.tc-yellow-light { color: var(--yellow-light); }
+/* IDENTITY COLORS */
+.tc-primary { color: var(--primary); }
+.tc-primary-light { color: var(--primary-light); }
+.tc-primary-dark { color: var(--primary-dark); }
+.tc-secondary { color: var(--secondary); }
+.tc-secondary-light { color: var(--secondary-light); }
+
+
+/* -------------------------------- */
+/* ---------------- TEXT PROPERTIES */
+.tunderline { text-decoration-line: underline; }
+.tuppercase { text-transform: uppercase }
+.tcenter { text-align: center }
+.tleft { text-align: left }
+.tright { text-align: right }
+.tnowrap {white-space: nowrap; text-overflow: ellipsis; }

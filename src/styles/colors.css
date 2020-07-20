@@ -1,0 +1,38 @@
+/* ---------------- COLORS VARIABLES FOR CSS CLASSES - */
+:root {
+    --primary: #000000;
+    --primary-light: #5ab09f;
+    --primary-dark: #388E3C;
+    --secondary: #cb4778;
+    --secondary-light: #FFCBDE;
+    --yellow: #FFEE33;
+    --yellow-light: #FBF7C7;
+    --error: #951d23;
+    --red: #F8475F;
+    --black: #000000;
+    --dark: #2A2A2A;
+    --white: #ffffff;
+    --grey-light: #E6E8EA;
+    --grey-medium: #C0C0C0;
+    --grey: #7A7A7A;
+}
+
+/* -------------------------- */
+/* ---------------- BG COLORS */
+.bgc-white { background: var(--white); }
+.bgc-black { background: var(--black); }
+.bgc-dark { background: var(--dark); }
+.bgc-grey-light { background: var(--grey-light); }
+.bgc-grey-medium { background: var(--grey-medium); }
+.bgc-grey { background: var(--grey); }
+.bgc-red { background: var(--red); }
+.bgc-error { background: var(--error); }
+.bgc-yellow { background: var(--yellow); }
+.bgc-yellow-light { background: var(--yellow-light); }
+
+/* IDENTITYS */
+.bgc-primary { background: var(--primary); }
+.bgc-primary-light { background: var(--primary-light); }
+.bgc-primary-dark { background: var(--primary-dark); }
+.bgc-secondary { background: var(--secondary); }
+.bgc-secondary-light { background: var(--secondary-light); }

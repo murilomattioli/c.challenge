@@ -1,0 +1,78 @@
+@import "colors.css";
+
+/* -cONTENTS */
+.fhalf { flex: .5 }
+.f1 { flex: 1 }
+.row { flex-direction: row }
+.col { flex-direction: column }
+.jStart { justify-content: flex-start }
+.j-center { justify-content: center }
+.jEnd { justify-content: flex-end }
+.jBetween { justify-content: space-between }
+.jAround { justify-content: space-around }
+.aiStart { align-items: flex-start }
+.ai-center { align-items: center }
+.aiEnd { align-items: flex-end }
+.ovfHidden { overflow: hidden }
+.content { padding-right: 25vw; padding-left: 25vw }
+.pointer { cursor: pointer; }
+
+/* BORDER -NONE */
+.bnone { border: none; } 
+/* BORDER -SMALLER */
+.bsmaller { border-width: 1px 1px 1px 1px solid; }
+.btsmaller { border-top-width: 1px 0px 0px 0px solid; }
+.brsmaller { border-right-width: 0px 1px 0px 0px solid; }
+.bbsmaller { border-bottom-width: 0px 0px 1px 0px solid; }
+.blsmaller { border-left-width: 0px 0px 0px 1px solid; }
+/* BORDER -SMALL */
+.bsmall { border-width: 2px 2px 2px 2px solid; }
+.btsmall { border-top-width: 2px 0px 0px 0px solid; }
+.brsmall { border-right-width: 0px 2px 0px 0px solid; }
+.bbsmall { border-bottom-width: 0px 0px 2px 0px solid; }
+.blsmall { border-left-width: 0px 0px 0px 2px solid; }
+/* BORDER -REGULAR */
+.bregular { border-width: 4px 4px 4px 4px solid; }
+.btregular { border-top-width: 4px 0px 0px 0px solid; }
+.brregular { border-right-width: 0px 4px 0px 0px solid; }
+.bbregular { border-bottom-width: 0px 0px 4px 0px solid; }
+.blregular { border-left-width: 0px 0px 0px 4px solid; }
+
+
+/* BORDER -COLORS */
+.bcDef { border-color: --deepGrey }
+.bcGreyLight { border-color: --greyText }
+.bcDivider { border-color: --divider }
+.bcGrey { border-color: --grey }
+.bcPrimary { border-color: --primary }
+.bcPrimaryDark { border-color: --primaryDark }
+.bcDark { border-color: --dark }
+.bcWhite { border-color: --white }
+.bcYellow { border-color: --yellow }
+.bcBlack { border-color: --black }
+.bcGreyLight { border-color: --greyMedium }
+/* RADIUS */
+.bRad4 { border-radius: 4px }
+.bRad8 { border-radius: 8px }
+.bRad12 { border-radius: 12px }
+.bRad16 { border-radius: 16px }
+.bRadB0 { border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; }
+.bRadB16 { border-bottom-left-radius: 16px; border-bottom-right-radius: 16px; }
+.bCircle { border-radius: 50% !important; }
+
+
+@media screen and (max-width: 1280px) {
+    .content { padding-right: 15vw; padding-left: 15vw }
+}
+
+@media screen and (max-width: 992px) {
+    .content { padding-right: 8vw; padding-left: 8vw }
+}
+
+@media screen and (max-width: 600px) {
+    .content { padding-right: 6vw; padding-left: 6vw }
+}
+
+@media screen and (max-width: 390px) {
+    .content { padding-right: 4vw; padding-left: 4vw }
+}
