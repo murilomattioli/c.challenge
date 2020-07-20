@@ -1,0 +1,71 @@
+/* ---------------- DOCUMENTATION ---------------- */
+/* ----------------------------------------------- */
+/* 
+    If you need any style properties but are 
+   not present in any of the created classes, 
+   please add the class with comments. 
+       If the value you need for the class has not 
+   yet been declared in the variables (imported at 
+   the beginning of this css document), please 
+   create a variable following the naming patterns 
+   already seen here. Thank you!
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+@import "colors.css";
+@import "text.css";
+@import "metrics.css";
+@import "contents.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    outline: none;
+    font-family: "Nunito", sans-serif;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.input-search, .input-search:focus {
+    font-size: var(--fsdef);
+    font-weight: var(--fwRegular);
+    border-width: 0px 0px 1px 0px !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.product {
+    padding-bottom: 48px;
+}
+.product:hover {
+    padding-bottom: 0;
+    background-color: var(--grey-light);
+}
+.product-button {
+    display: none;
+}
+.product:hover > .product-button {
+    display: flex;
+}
